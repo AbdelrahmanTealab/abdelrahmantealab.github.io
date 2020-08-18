@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tealab</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <section class="preloader">
+        <div class="spinner">
+            <span class="spinner-rotate"></span>
+        </div>
+    </section>
+    <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <h1 class="navbar-item">A. Tealab</h1>
+
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+
+                <a class="navbar-item" href="#about">
+          About
+        </a>
+
+                <a class="navbar-item" href="#portfolio">
+          Portfolio
+        </a>
+
+            </div>
+
+            <div class="navbar-end">
+                <a class="navbar-item" href="#contact">
+          Contact
+        </a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="main-sect">
+        <div id="about">
+            <video autoplay muted loop id="myVideo">
+        <source src="images/bg.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+            <div class="content_about rellax" data-rellax-speed="-1">
+                <h1>Welcome to my profile</h1>
+                <hr>
+                <p>My name is Abdelrahman Tealab, and I am a Python developer. I started programming for around 7 years of which I've learned many programming languages including but not limited to C++,C, Scala, and Java. Although My knowledge and expertise
+                    in programming is quiet diverse, I consider <strong>Python</strong> to be my strongest suit. However, I have foundational knowledge in Networking like routing & switching as well as hands-on experience working with big data and currently
+                    self-learning Swift for iOS development.</p>
+            </div>
+
+            <div class="content_about2 rellax" data-rellax-speed="-1">
+                <div class="columns">
+                    <div class="column">
+                        <p class="bd-notification is-info">Programming languages (recent)</p>
+                        <hr>
+                        <div class="columns is-mobile">
+                            <div class="column">
+                                <figure class="image is-96x96">
+                                    <img src="images/Python.png" alt="python">
+                                </figure>
+                                <figure class="image is-96x96">
+                                    <img src="images/java.png" alt="java">
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <figure class="image is-96x96">
+                                    <img src="images/csharp.png" alt="csharp">
+                                </figure>
+                                <figure class="image is-96x96">
+                                    <img id="spark" src="images/spark.png" alt="spark">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p class="bd-notification is-info">Tools (recent)</p>
+                        <hr>
+                        <div class="columns is-mobile">
+                            <div class="column">
+                                <figure class="image is-128x128">
+                                    <img src="images/hadoop.png" alt="hadoop">
+                                </figure>
+                                <figure class="image is-128x128">
+                                    <img src="images/sql.png" alt="sql server">
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <figure class="image is-128x128">
+                                    <img src="images/powerbi.png" alt="powerbi">
+                                </figure>
+                                <figure class="image is-128x128">
+                                    <img id="tableau" src="images/tableau.png" alt="tableau">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container rellax" data-rellax-speed="7" id="portfolio">
+            <div id="port">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-256x256">
+                                <img src="images/nvca.gif" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="images/nvca.png" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">NVCA Watershed Database</p>
+                                    <p class="subtitle is-6">As a Data Engineer</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <hr>
+                                <h6>Objective</h6>
+                                The objectives of this project were to undertake data collection, conversion, cleaning, organization, curation, data management, relational database, and preparation for multiple forms of analysis.
+                                <hr>
+                                <h6>Description</h6>
+                                NVCA had a series of data related to its ongoing watershed monitoring. The data source, type, format, style, structure vary throughout various business units. The vision is for a comprehensive integration of these data sources into a centralized corporate
+                                data management platform.
+                                <hr>
+                                <h6>Tags</h6>
+                                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">#Python</a> <a href="https://en.wikipedia.org/wiki/Microsoft_Excel" target="_blank">#Excel</a> <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server"
+                                    target="_blank">#MS-SQL-Server</a>
+                                <br> Completion: <time datetime="2016-1-1">7 Aug 2020</time>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card ">
+                        <div class="card-image ">
+                            <figure class="image is-256x256">
+                                <img src="images/datamining.png " alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content ">
+                            <div class="media ">
+                                <div class="media-left ">
+                                    <figure class="image is-48x48">
+                                        <img src="images/gc.png" alt="Placeholder image ">
+                                    </figure>
+                                </div>
+                                <div class="media-content ">
+                                    <p class="title is-4 ">Facebook & Twitter data mining</p>
+                                    <p class="subtitle is-6 ">building APIs for web scraping</p>
+                                </div>
+                            </div>
+                            <div class="content ">
+                                <hr>
+                                <h6>Objectives</h6>
+                                Real-time acquisition of feeds Display (media from the social media feed i.e. photos, videos, web links), Stored collected data in cloud, Built a data model.
+                                <hr>
+                                <h6>Description</h6>
+                                The idea behind this project is to be able to log in to one integrated web application which will provide you the feed, likes, and more details of Facebook posts and Twitter tweets using GraphAPIs.
+                                <hr>
+                                <h6>Tags</h6>
+                                <a href="https://developers.facebook.com/docs/graph-api/" target="_blank">#Facebook-Graph-API</a> <a href="https://developer.twitter.com/en/docs" target="_blank">#Twitter-API</a> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)"
+                                    target="_blank">#Python</a>
+                                <a href="https://en.wikipedia.org/wiki/JSON" target="_blank">#Json</a> <a href="https://en.wikipedia.org/wiki/MySQL" target="_blank">#MySQL</a> <a href="https://aws.amazon.com" target="_blank">#AWS</a>
+                                <a href="https://www.tweepy.org" target="_blank">#Tweepy</a> <a href="https://facebook-sdk.readthedocs.io/en/latest/" target="_blank">#FacebookSDK</a> <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">#HTML</a>                                <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank">#JQuery</a> <a href="https://en.wikipedia.org/wiki/Ajax_(programming)" target="_blank">#AJAX</a>
+                                <a href="https://en.wikipedia.org/wiki/PHP" target="_blank">#PHP</a>
+                                <br> Completion: <time datetime="2016-1-1 ">3 July 2020</time>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-256x256">
+                                <img src="images/thesis.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="images/bue.png" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="media-content ">
+                                    <p class="title is-4 ">Virtual Martial Arts Stance Trainer using EEG and Motion Capture</p>
+                                    <p class="subtitle is-6 ">Practical Thesis</p>
+                                </div>
+                            </div>
+                            <div class="content ">
+                                <hr>
+                                <h6>Objective</h6>
+                                The objective of solving the availability problem in martial arts is not only to provide more availability for the trainees, but also to provide better accuracy and feedback. The method of how this solution would be implemented is by using two main sensors,
+                                <a>EEG</a> and a <a>MOCAP</a> sensor in order to analyse body postures and states of mind. Achievements so far are the possibility to capture the trainee’s body posture and measure angles between them as well as recording
+                                the mind state and providing feedback for each of the two aspects.
+                                <hr>
+                                <h6>Description</h6>
+                                Virtual Martial Arts coach for people that can't have physical access to martial art gyms.
+                                <p>why MOCAP...</p>
+                                <ul>
+                                    <li>Realtime image to bones (stick figures).</li>
+                                    <li>Applying the Dot Product equation to read the bones as vectors.</li>
+                                    <li>Acquiring the angles from the Dot Product equation between 2 vectors.</li>
+                                    <li>Compare the angles of the real time recording to a pre-set data for each stance.</li>
+                                    <li>Provide feedback accordingly.</li>
+                                </ul>
+                                <p>why EEG...</p>
+                                <ul>
+                                    <Li>Real time brainwave monitoring.</Li>
+                                    <Li>Brainwave signals translation into Attention and Meditation. </Li>
+                                    <Li>Comparing Attention and Meditation levels to the required state. </Li>
+                                    <Li>Providing feedback about mental state per posture.</Li>
+                                </ul>
+                                <a href="https://www.healthline.com/health/eeg" target="_blank">#EEG</a> <a href="https://en.wikipedia.org/wiki/Motion_capture" target="_blank">#MOCAP</a> <a href="http://neurosky.com" target="_blank">#Neurosky-Mindwave</a>                                <a href="https://developer.microsoft.com/en-us/windows/kinect/" target="_blank">#Xbox-Kinect</a> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">#Python</a> <a href="https://en.wikipedia.org/wiki/C%2B%2B"
+                                    target="_blank">#C++</a>
+                                <a href="https://pypi.org/project/NeuroPy/" target="_blank">#NeuroPy</a>
+                                <br> Completion: <time datetime="2016-1-1 ">1 April 2018</time>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card ">
+                        <div class="card-image ">
+                            <figure class="image is-256x256">
+                                <img src="images/dash.png " alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media ">
+                                <div class="media-left ">
+                                    <figure class="image is-48x48">
+                                        <img src="images/gc.png" alt="Placeholder image ">
+                                    </figure>
+                                </div>
+                                <div class="media-content ">
+                                    <p class="title is-4 ">Google Play & App Store</p>
+                                    <p class="subtitle is-6">Analyzing and Visualization</p>
+                                </div>
+                            </div>
+                            <div class="content ">
+                                <hr>
+                                <h6>Objectives</h6>
+                                Analyze store data and gain insights on application quality, users critique, and pricing types.
+                                <hr>
+                                <h6>Description</h6>
+                                Analyzing this data helped me gain information about which store to invest in based on a number of application KPIs.
+                                <hr>
+                                <h6>Tags</h6>
+                                <a href="">#PowerBI</a>
+                                <a href=""></a> <a href="">#DAX</a>
+                                <br> Completion: <time datetime="2016-1-1 ">3 August 2020</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content has-text-centered" id="engr">
+            <hr class="fanchr">
+            <div class="container" id="engraved">
+                Thank
+            </div>
+            <div class="container" id="engraved2">
+                You!
+            </div>
+            <hr class="fanchr">
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered ">
+            <div class="container rellax" id="contact" data-rellax-speed="0" data-rellax-zindex="-1">
+                <div class="container">
+                    <h1>Contact me for more information</h1>
+                    <div class="columns">
+                        <div class="column">
+                            <figure class="image is-96x96">
+                                <a href="https://www.facebook.com/kage.oni.564/"><img src="images/facebook.png"></a>
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <figure class="image is-96x96">
+                                <a href="https://twitter.com/AbdelrahmanTae1"><img src="images/twitter.png"></a>
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <figure class="image is-96x96">
+                                <a href="https://www.linkedin.com/in/abdelrahman-tealab-a8b13a1a2/"><img src="images/linkedin.png"></a>
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <figure class="image is-96x96">
+                                <a href="https://github.com/AbdelrahmanTealab"><img src="images/github.png"></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p>
+                Created 100% by <strong>me</strong> with <a href="https://bulma.io " target="_blank "><strong>Bulma</strong></a> CSS framework and <a href="https://dixonandmoe.com/rellax/ "><strong>Rellax</strong></a> JS library.
+            </p>
+            <p id="name">
+                Abdelrahman Tealab
+            </p>
+        </div>
+    </footer>
+    <script type="text/javascript " src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script type="text/javascript " src="http://code.jquery.com/jquery-1.11.0.min.js "></script>
+    <script type="text/javascript " src="http://code.jquery.com/jquery-migrate-1.2.1.min.js "></script>
+    <script type="text/javascript " src="js/rellax.min.js "></script>
+    <script type="text/javascript " src="js/rellax.js "></script>
+    <script type="text/javascript " src="js/custom.js "></script>
+
+</body>
+
+</html>

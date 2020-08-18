@@ -1,0 +1,327 @@
+.navbar.is-dark {
+    background: #242424;
+    box-shadow: 0px 0px 10px rgb(39, 39, 39);
+}
+
+.navbar-item:not(h1) {
+    text-shadow: 0px 1px 1px #000000;
+    color: rgba(255, 255, 255, 0.685) !important;
+    transition: 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar-item:hover:not(h1) {
+    text-shadow: 0px 1px 1px #4d4d4d;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(255, 255, 255, 0.2), 4px 4px 6px rgba(0, 0, 0, 0.5), 2px 2px 2px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
+    background: none !important;
+    transition: 0.5s;
+}
+
+.navbar-brand h1.navbar-item {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0px 1px 1px #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+    from {
+        -webkit-mask-position: 150%;
+    }
+    to {
+        -webkit-mask-position: -50%;
+    }
+}
+
+#main-sect {
+    background: snow;
+    background-size: cover;
+    margin-bottom: -128px;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.spinner {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    position: relative;
+}
+
+.spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 1px solid #575757;
+    border-top-color: #ffffff;
+    animation: spinner .9s linear infinite;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.footer {
+    background: #242424;
+    box-shadow: 0px 0px 10px rgb(39, 39, 39);
+    text-shadow: 0px 1px 1px #4d4d4d;
+    color: rgb(167, 167, 167) !important;
+    transition: 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.footer a {
+    color: aqua;
+}
+
+.footer h6 {
+    color: whitesmoke;
+}
+
+.footer .attr a {
+    color: whitesmoke;
+}
+
+.footer #contact h1 {
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    color: antiquewhite;
+    margin-bottom: 48px;
+}
+
+.footer #contact img {
+    align-content: center;
+    margin: auto;
+    margin-bottom: 0 !important;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
+}
+
+#about:not(.content_about2) {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content_about {
+    position: absolute;
+    bottom: 50%;
+    background: rgba(255, 255, 255, 0.637);
+    color: #000000;
+    width: 85%;
+    padding: 20px;
+    margin: 1px;
+    right: 8%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.content_about2 {
+    position: absolute;
+    bottom: -5%;
+    background: rgba(255, 255, 255, 0.637);
+    color: #000000 !important;
+    width: 85%;
+    padding: 20px;
+    margin: 1px;
+    right: 8%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.content_about2 .columns .column figure {
+    align-content: center;
+    margin: auto;
+    margin-bottom: 0 !important;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0px 0px 7px rgb(0, 0, 0));
+}
+
+.content_about2 .columns .column figure #tableau {
+    margin-top: 20px;
+}
+
+.content_about2 .columns .column figure #spark {
+    margin-top: 35px;
+}
+
+hr {
+    overflow: visible;
+    /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr:before {
+    /* Not really supposed to work, but does */
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: none;
+}
+
+strong {
+    color: rgb(30, 105, 0);
+}
+
+#portfolio {
+    box-shadow: 0px 0px 10px rgb(39, 39, 39);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #d5f9ff6c;
+}
+
+#portfolio .columns .column .card {
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#portfolio .columns .column .card .card-image figure img {
+    border-radius: 20px;
+}
+
+#portfolio #port {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#portfolio h1 {
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(247, 247, 247, 0.473);
+    font-size: 4em;
+    letter-spacing: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5), 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+#engr {
+    align-content: center;
+    position: relative;
+    bottom: 40vh;
+}
+
+#engr div {
+    width: 400px;
+    height: 65px;
+    line-height: 60px;
+    font-family: cursive;
+    font-size: 240px;
+    font-weight: bold;
+    align-content: center;
+}
+
+#engraved {
+    color: #666;
+    text-shadow: 0px -1px 0px rgb(0, 0, 0);
+    text-align: center;
+    right: 20vw;
+}
+
+#engraved2 {
+    color: #666;
+    text-shadow: 0px -1px 0px rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 200px;
+    left: 5vw;
+}
+
+.fanchr {
+    padding: 0;
+    border: none;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    color: #333;
+    text-align: center;
+}
+
+.fanchr:after {
+    display: inline-block;
+    position: relative;
+    top: -2.1em;
+    font-size: 1.5em;
+    padding: 19px 1.75em;
+    background: #fff url(image/cartoon_1.png) no-repeat scroll center;
+    background-size: 90px 90px;
+    height: 50px;
+}
+
+#name {
+    font-family: cursive;
+}
+
+@media (min-width: 280px) and (max-width: 1024px) {
+    .content_about {
+        position: static !important;
+        width: 100% !important;
+        right: 0 !important;
+    }
+    .content_about2 {
+        position: static !important;
+        width: 100% !important;
+        right: 0 !important;
+    }
+    #portfolio {
+        margin-top: 25%;
+    }
+    #engr div {
+        font-size: 128px;
+    }
+    #engraved {
+        right: 5vw;
+    }
+    #engraved2 {
+        margin-top: 100px;
+        left: 10vw;
+    }
+    .footer .columns .column {
+        display: inline-block;
+    }
+}
